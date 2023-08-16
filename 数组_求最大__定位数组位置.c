@@ -6,7 +6,7 @@ int main(void)
 {
     int max = 0;
     int colum, row;
-    int arr[N][M] = {1, 3, 54, 6, 78, 96};
+    int arr[N][M] = {1, 3, 5445, 6, 78, 96};
     for (int i = 0; i < N; i++)
     {
         for (int j = 0; j < M; j++)
@@ -32,7 +32,7 @@ int main(void)
     }
 
     printf("该数组最大的是：%d\n", max);
-    printf("定位：%d行，%d列\n", row, colum);
+    printf("定位：%d行，%d列\n", row+1, colum+1);
 
     exit(0);
 }
