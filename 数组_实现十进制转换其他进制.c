@@ -28,7 +28,10 @@ static void zhuanhuan(int num_D,int num)
     }while (num_D!=0);
     for (i--; i>=0; i--)
     {
-        printf("%d",n[i]);
+        if(n[i]>=10){
+            printf("%c",n[i]-10+'A');
+        }
+        else printf("%d",n[i]);
     }
     
     printf("\n");
